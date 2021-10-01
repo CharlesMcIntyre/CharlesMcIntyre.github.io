@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+
+<html lang="en"></html>
+    <head>
+        <meta charset="UTF-8" />    
+        <title>index</title>
+        <style>
+            table, th, td {
+              border:1px solid black;
+            }
+            </style>
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <style>
+            .container {
+              border: 2px solid #ccc;
+              background-color: #eee;
+              border-radius: 5px;
+              padding: 16px;
+              margin: 16px 0
+            }
+            
+            .container::after {
+              content: "";
+              clear: both;
+              display: table;
+            }
+            
+            .container img {
+              float: left;
+              margin-right: 20px;
+              border-radius: 50%;
+            }
+            
+            .container span {
+              font-size: 20px;
+              margin-right: 15px;
+            }
+            
+            @media (max-width: 500px) {
+              .container {
+                  text-align: center;
+              }
+              .container img {
+                  margin: auto;
+                  float: none;
+                  display: block;
+              }
+            }
+            </style>
+    </head>
+    
+    <body>
+        <h1>All about me</h1>
+        <img src="me.jpg" width="220" height="160">                                                  
+        <a href="#Links_and_Biography">Links and Biography</a>
+        <p>I am Charles Mcintyre. <br> A Game Programming student at St.Lawrence College</p>
+
+        <hr>
+
+        <h2>Hobbies/interests</h2>
+			<ul>
+                <li>Video Games</li>
+                <li>Coding</li>
+                <li>Listening to Music</li>
+                <li>Watching Movies</li>
+            </ul>
+
+            <table style="width:100%">
+                <tr>
+                  <th colspan="2">Info about me</th>
+                  <th>Learning</th>
+                  <th>Contact Info</th>
+                </tr>
+                <tr>
+                  <td colspan="2">Fast Learner</td>
+                  <td>C++</td>
+                  <td>113 Belmont St, Cornwall, ON, K6H4Z2</td>
+                </tr>
+                <tr>
+                  <td colspan="2">Patient</td>
+                  <td>HTML</td>
+                  <td>613-360-2517</td>
+                </tr>
+                <tr>
+                    <td>Positive</td>
+                    <td>Social</td>
+                    <td>Graphics and Modelling</td>
+                    <td>charlesdavid1@live.ca</td>
+                </tr>
+              </table>
+
+              <div class="container">
+                <img src="Vincent.jpg" alt="Vincent" style="width:90px">
+                <p><span>Vincent Sanchez.</span> Student.</p>
+                <p>Charles is on the right path.</p>
+              </div>
+              
+              <div class="container">
+                <img src="ABDEL.jpg" alt="ABDEL" style="width:90px">
+                <p><span>Abdelghani Zebroune.</span> Student.</p>
+                <p>Charles is underrated.</p>
+              </div>
+
+              <hr>
+
+              <h2>Biography</h2>
+              <pre>
+I am persuing my passion of programming games i've always loved playing video games and have alwyas felt a need/passion
+to make them better i had a feeling like they where all missing something and now aiming to fill that something.
+I've had a rough time growing up alot of struggles but it has never stopped me from moving foward and reaching my dreams.
+              </pre>
+             
+              <a href="portfolio.html">See my portfolio here</a>
+              <a href="Resume.docx">and my resume here</a>
+              <a id="Links_and_Biography"> </a>
+
+  </body>
+</html>
